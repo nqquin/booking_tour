@@ -65,7 +65,7 @@ def ensure_minimum_tours(tours, min_count=4):
             break
     return tours
 
-# ROUTES
+
 
 @chat_bp.route('/partners', methods=['GET'])
 @jwt_required()
